@@ -24,6 +24,17 @@ namespace WindowsFormsApp1
             richTextBox1.AppendText(d1.ToString("0.0") + "\n");
             richTextBox1.AppendText(d1.ToString("0.0E0") + "\n");
             richTextBox1.AppendText(d1.ToString("0.00E00") + "\n");
+            double pi = 3.14159265;
+            double c = 299792458;
+            richTextBox1.AppendText(pi.ToString("N3") + "\n");
+            richTextBox1.AppendText(pi.ToString("N5") + "\n");
+            richTextBox1.AppendText(pi.ToString("N15") + "\n");
+            richTextBox1.AppendText(c.ToString() + "\n");
+            richTextBox1.AppendText(c.ToString("N") + "\n");
+            richTextBox1.AppendText(c.ToString("E16") + "\n");
+            richTextBox1.AppendText(c.ToString("E3") + "\n");
+
+
         }
 
 
